@@ -5,6 +5,7 @@ body {
 
 
 table {
+    font-size: 30px;
     width: 80%;
     border-radius: 5px;
     border-radius: 15px;
@@ -37,8 +38,8 @@ th {
 }
 
 td {
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
     font-weight: bold;
 
     color: black;
