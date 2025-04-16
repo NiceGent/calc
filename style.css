@@ -4,7 +4,8 @@ body {
 }
 
 
-table{
+table {
+    width: 80%;
     border-radius: 5px;
     border-radius: 15px;
     margin: 20px auto;
@@ -40,15 +41,8 @@ td {
     height: 100px;
     font-weight: bold;
 
-    color: #FFFFFF;
+    color: black;
 
-    -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-
-    text-shadow:
-    2px 2px 2px #B22234,
-    0 0 1em #B22234,
-    0 0 0.2em #B22234;
 }
 
 #table_foot {
