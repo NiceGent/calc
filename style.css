@@ -1,34 +1,76 @@
-table{
-    border-radius: 5px;
-    margin: 20px auto;
-    border: 1px solid black;
+body {
+    font-family: bradley hand, cursive;
+    background-color: #474448;
 }
 
-th {
-    background-color: #df979e;
+
+table{
+    border-radius: 5px;
+    border-radius: 15px;
+    margin: 20px auto;
+    border: 5px solid #474448;
+    border-spacing: 30px;
+    text-align: center;
+    background-image: url("https://img.freepik.com/premium-vector/xmas-seamless-pattern-with-red-gift-boxes-design-wallpaper-gift-wrap-surface-textures-vector_393343-565.jpg");
 }
 
 td {
-    background-color: #e2e2e2;
-    color:black;
+    background-color: #E0DDCF;
+    color:#534B52;
+    background-image: url("https://thumbs.dreamstime.com/b/thin-red-diagonal-stripes-white-vector-background-grid-template-straight-parallel-lines-126686446.jpg");
 }
 
 th, td {
     padding: 30px 20px;
+    border-radius: 25px;
+    margin: 50px;
+    border: 2px dashed  #B22234;
+}
 
+th {
+    background-color: #534B52;
+    color: #F1F0EA;
+    border: 2px solid  #fff;
+    border: 2px solid  #B22234;
+    background-color: #B22234;;
 }
 
 td {
     width: 100px;
     height: 100px;
+    font-weight: bold;
+
+    color: #FFFFFF;
+
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+
+    text-shadow:
+    2px 2px 2px #B22234,
+    0 0 1em #B22234,
+    0 0 0.2em #B22234;
+}
+
+#table_foot {
+    height: 30px;
+    border: 2px solid  #B22234;
+    background-color: #B22234;;
+    background-image: url("");
+    color: #FFFFFF;
+
+    -webkit-text-stroke-width: none;
+    -webkit-text-stroke-color: none;
 }
 
 #one:hover, #two:hover, #three:hover, #four:hover, #five:hover, #six:hover, #seven:hover, #eight:hover, #nine:hover, #ten:hover, #eleven:hover, #tweleve:hover {
-    /* background-size: 80%; */
-    background-size: contain;
-    background-position: center;
     color: transparent;
-    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: black;
+  
+      text-shadow:none;
 }
 
 #one:hover {
@@ -52,7 +94,7 @@ td {
 }
 
 #six:hover {
-    background-image: url("https://img.freepik.com/premium-vector/spicy-chicken-3d-editable-text-style-effect_57516-2275.jpg");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfwTw1WATNXTglyAtW--RrSdQNMK0WP8uoqA&s");
 }
 
 #seven:hover {
